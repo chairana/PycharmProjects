@@ -8,6 +8,11 @@ if __name__ == "__main__":
     # Your code.
     # TODO: - Get the minimum values of the arrayValues using the for loop
     # Your code
+    maxvalue = arrayValues[0]
+    for x in arrayValues:
+        if x > maxvalue:
+            maxvalue = x
+    print(maxvalue)
     minvalue=arrayValues[0]
     for x in arrayValues:
         if x < minvalue:
