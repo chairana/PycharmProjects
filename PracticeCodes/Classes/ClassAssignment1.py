@@ -74,11 +74,3 @@ if __name__ == "__main__":
     p.getChildrenName()
     p.getGender()
     p.getPartnersName()
-
-    # Here to setting the new name
-    p.setName("Saikrishna")
-
-    # printing the new name
-    p.getName()
-
-    print(p.gender)
